@@ -21,6 +21,7 @@
 		0069CD42188E5BB8002D0C3A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0069CD24188E5BB8002D0C3A /* UIKit.framework */; };
 		0069CD4A188E5BB8002D0C3A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0069CD48188E5BB8002D0C3A /* InfoPlist.strings */; };
 		0069CD4C188E5BB8002D0C3A /* FaceBookSDK_ExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0069CD4B188E5BB8002D0C3A /* FaceBookSDK_ExampleTests.m */; };
+		0069CD5A188E5D5D002D0C3A /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0069CD59188E5D5D002D0C3A /* FacebookSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		0069CD47188E5BB8002D0C3A /* FaceBookSDK_ExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FaceBookSDK_ExampleTests-Info.plist"; sourceTree = "<group>"; };
 		0069CD49188E5BB8002D0C3A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0069CD4B188E5BB8002D0C3A /* FaceBookSDK_ExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FaceBookSDK_ExampleTests.m; sourceTree = "<group>"; };
+		0069CD59188E5D5D002D0C3A /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FacebookSDK.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0069CD23188E5BB8002D0C3A /* CoreGraphics.framework in Frameworks */,
+				0069CD5A188E5D5D002D0C3A /* FacebookSDK.framework in Frameworks */,
 				0069CD25188E5BB8002D0C3A /* UIKit.framework in Frameworks */,
 				0069CD21188E5BB8002D0C3A /* Foundation.framework in Frameworks */,
 			);
@@ -101,6 +104,7 @@
 		0069CD1F188E5BB8002D0C3A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0069CD59188E5D5D002D0C3A /* FacebookSDK.framework */,
 				0069CD20188E5BB8002D0C3A /* Foundation.framework */,
 				0069CD22188E5BB8002D0C3A /* CoreGraphics.framework */,
 				0069CD24188E5BB8002D0C3A /* UIKit.framework */,
@@ -378,6 +382,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/sdt-1/Documents/FacebookSDK",
+					"/Users/sdt-1/Documents/Projects/03_고급/FaceBookSDK_Example",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FaceBookSDK_Example/FaceBookSDK_Example-Prefix.pch";
 				INFOPLIST_FILE = "FaceBookSDK_Example/FaceBookSDK_Example-Info.plist";
@@ -391,6 +400,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/sdt-1/Documents/FacebookSDK",
+					"/Users/sdt-1/Documents/Projects/03_고급/FaceBookSDK_Example",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FaceBookSDK_Example/FaceBookSDK_Example-Prefix.pch";
 				INFOPLIST_FILE = "FaceBookSDK_Example/FaceBookSDK_Example-Info.plist";
